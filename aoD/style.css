@@ -22,7 +22,7 @@ body{
 /* Full-width input fields */
 .R {
   position: relative;
-   top:-410px;
+   top:-415px;
   left: 80px;
     width: 20%;
 font-size: 19px;
@@ -53,7 +53,7 @@ font-size: 19px;
 }
 .V1{
   position: relative;
-  top:-515px;
+  top:-518px;
   left: -160px;
     width: 20%;
    font-size: 19px;
