@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+        body {background:url(ao.png );
+            background-size:cover;}
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>No inversor</title>
+</head>
+<body>
+        <header id="leftMenu">
+        <a href="#"  id="botonX" onclick="cerrarMenu()">X</a>
+        <nav class="leftNav">
+        <a href="javascript:history.back()"> Inicio</a>
+        </nav>
+
+    </header>
+
+    <span class="menu" id="barras" onclick="abrirMenu()"><i class="fa-solid fa-bars"></i></span>
+    <script src="main.js"></script>
+
+    </style>
+    <title>Amplificador operacional No inversor</title>
+</head>
+<body>
+<form>
+
+        <h1>AMPLIFICADOR OPERACIONAL NO INVERSOR</h1>
+        <div class="container">
+        <img src="Noinversor.png"  alt="Snow" style="width:100%;">  
+        <label for="R1" class="R" ><b>R1:</b></label>
+        <input type="text " class="R" placeholder="ohm" maxlength="18"  id="R1"> 
+        <label for="R2" class="R2"><b>R2:</b></label>
+        <input type="text " class="R2" placeholder="ohm" maxlength="18"  id="R2"> 
+        <label for="Vs" class="V"><b>Vin:</b></label>
+        <input type="text " class="V" placeholder="Voltios" maxlength="18"  id="Vs"> 
+                   </form>
+     <center>
+     <form action="">
+        <center>
+        <br>
+        <label for="Vo" class="Vo1" ><b>Vo:</b></label>
+        <input type="number" class="Vo1" id="Vo"><p></p>
+        <input type="button" class="btn" value="Cálculo" onclick="No_inversor()"><br> 
+
+     </form>
+ 
+</body>
+
+</html>

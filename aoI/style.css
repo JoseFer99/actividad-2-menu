@@ -1,0 +1,154 @@
+body{
+  width: 60vw;
+  height: 15vh;
+    color:white;
+    background:url(ao.png );
+    background-size:cover;
+
+ }
+
+
+/* Add styles to the form container */
+.container {
+  position: relative;
+  margin: 20px;
+  max-width: 600px;
+  height: auto;
+  padding: 50px;
+  background-color: white;
+  color:black;
+    top:-50px;
+  left: 300px;
+}
+/* Full-width input fields */
+.R {
+  position: relative;
+   top:-165px;
+  left: 65px;
+    width: 20%;
+font-size: 19px;
+
+}
+
+.R2{
+    position: relative;
+   top:-255px;
+  left: 85px;
+    width: 20%;
+   font-size: 19px;
+}
+
+.V{
+  position: relative;
+  top:-260px;
+  left: -380px;
+    width: 15%;
+   font-size: 19px;
+}
+.Vo1 {
+  position: relative;
+  top: -180px;
+  left: 240px;
+width: 20%;
+   font-size: 20px;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+    position: relative;
+  top:-50px;
+  right: 100px;
+  left: 0px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+/*aca configuro como se veria en computadora*/
+ #leftMenu #botonX  {
+        display: block;
+        font-size: 30px;
+
+    }
+    #barras {
+        display: block;
+        font-size: 30px;
+    }
+    .menu i{
+        margin: 10px;
+    }
+    #leftMenu{
+        height: 100vh;
+        position: fixed;
+        width: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: black;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    .leftNav{
+        margin-top: 70px;
+        display: block;
+    }
+    .leftNav a{
+        margin-bottom: 15px;
+    }
+    #leftMenu a{
+        padding: 8px 8px 8px 15px;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        display: block;
+        transition: .5s;
+    }
+}
+
+}
+#barras {
+    display: none;
+}
+header{
+    background-color: #1e1e1e;
+    height: auto;
+    width: 100%;
+}
+h1{ 
+    position: relative;    
+    width: 100%;
+    top:-60px;
+    left: 300px;
+  right: 100px;
+}
+nav{
+    display: flex;
+    justify-content: stretch;
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover{
+    background: #ff5722;
+}
+
+
+/*aca configuro como se veria en una pantalla menor a 850px (celular, tablet, etc)*/
+
+
+
+
+
+

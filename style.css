@@ -1,0 +1,198 @@
+/*configuracion general*/
+
+body{  
+    height: auto;
+    width: 100%;
+    color:white;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container {
+  position: relative;
+  max-width: 600px;
+  height: auto;
+  color:black;
+    top:-50px;
+  left: 300px;
+}
+/*aca configuro como se veria en computadora*/
+ #leftMenu #botonX  {
+        display: white;
+        font-size: 30px;
+        
+
+    }
+    #barras {
+        display: block;
+        font-size: 30px;
+    }
+    .menu i{
+        margin: 10px;
+    }
+    #leftMenu{
+        height: 100vh;
+        position: fixed;
+        width: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: black;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    .leftNav{
+        margin-top: 70px;
+        display: block;
+    }
+    .leftNav a{
+        margin-bottom: 15px;
+    }
+    #leftMenu a{
+        padding: 8px 8px 8px 15px;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        display: block;
+        transition: .5s;
+    }
+}
+
+}
+#barras {
+    display: none;
+}
+header{
+    background-color: #1e1e1e;
+    height: auto;
+    width: 100%;
+    text-align: left;
+}
+div{
+
+              color: white;
+}
+.center{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: stretch;
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover{
+    background: #ff5722;
+}
+.imag{
+ position: relative;
+text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 50px;
+  color:white;
+    left: 80px;
+}
+.imag1{
+ position: relative;
+text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 50px;
+  color:white;
+    left: 10px;
+}
+.imag2{
+ position: relative;
+text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 50px;
+  color:white;
+    left: 80px;
+}
+.imag3{
+ position: relative;
+text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 50px;
+  color:white;
+    left: 80px;
+}
+.imag4{
+ position: relative;
+text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 50px;
+  color:white;
+    left: 80px;
+}
+h2{
+    top: 50px;
+        left: 50px;
+    text-align: center;
+      color:white;
+      position: relative;
+font-size: 19px;
+  max-width: 800px;
+  max-height: 400px;
+}
+h3{
+    text-align: left;
+      color:white;
+      position: relative;
+font-size: 19px;
+  max-width: 800px;
+  max-height: 400px;
+      left: 50px;
+}
+video
+{
+    position: relative;
+text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 50px;
+  color:white;
+    left: 50px;
+}
+main {
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    margin: auto;
+    max-width: 900px;
+
+}
+h4{
+    text-align: center;
+      color:white;
+      position: relative;
+       padding: 50px;
+font-size: 19px;
+  max-width: 800px;
+  max-height: 600px;
+      left: 50px;
+}
+/*aca configuro como se veria en una pantalla menor a 850px (celular, tablet, etc)*/
+
+
+
+
+
+

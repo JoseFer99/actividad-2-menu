@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <style>
+        body {background:url(ao.png );
+            background-size:cover;}
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header id="leftMenu">
+        <a href="#" class="btn" id="botonX" onclick="cerrarMenu()">X</a>
+        <nav class="leftNav">
+            <a href="aoN/No inversor.html">No inversor</a>   
+            <a href="aoI/Inversor.html">Inversor</a>
+            <a href="aoS/Seguidor.html">Seguidor</a>
+            <a href="aoSN/Sumador inversor.html">Sumador inversor</a>
+            <a href="aoD/Diferencial.html">Diferencial</a>                                              
+        </nav>
+
+    </header>
+
+    <span class="menu" id="barras" onclick="abrirMenu()"><i class="fa-solid fa-bars"></i></span>
+    <script src="main.js"></script>
+    <div class="center">
+        <img src="https://www.usco.edu.co/imagen-institucional/ocre/universidad-surcolombiana-50.png">
+    <div class="title">
+    <h1>AMPLIFICADORES OPERACIONALES</h1>
+   <p>CURSO DE APLICACIONES MÓVILES 2023-1</p>
+     <p>Programa de Ingenieria Electronica</p> 
+</div>
+</div>
+<h2>DIFERENCIAL</h2>
+ 
+    <p><img  class="imag"src="aoD/Diferencial.png">
+    <h3>El amplificador operacional en modo diferencial con ganancia controlada, o también conocido como amplificador diferencial, amplifica la diferencia entre las dos entradas de voltaje. La no inversora menos la inversora. La ventaja de el amplificador diferencial es que rechaza el ruido en modo común. En este caso, la salida esta en función a una ganancia, la cual es proporcional a la relación de resistencias.</h3></p>
+<h2><strong>INVERSOR</strong></h2>
+    <p><img  class="imag1" src="aoI/inversor.png">
+    <h3>En este circuito, la entrada V(+) está conectada a masa y la señal se aplica a la entrada V(-) a través de R1, con realimentación desde la salida a través de R2. La entrada V(-) es un punto de tierra virtual, ya que está a un potencial cero.</p>
+
+    <p>El circuito comúnmente más utilizado es el circuito de ganancia constante. El amplificador inversor amplifica e invierte una señal 180º, es decir, el valor de la tensión de salida está en oposición de fase con la de entrada y su valor se obtiene al multiplicar la tensión de la entrada por una ganancia fija constante, establecida por la relación entre R2 y R1, resultando invertida esta señal (desfase).</h3></p>
+    <h2><strong>NO INVERSOR</strong></h2>
+
+    <p><img  class="imag2" src="aoN/Noinversor.png">
+    <h3>Este es el caso en que la tensión de entrada Ve, está en fase con la de salida Vs, esta tensión de salida, genera una corriente a través de R2 hacia el terminal inversor, a su vez a través de R1, se genera una corriente hacia el mismo terminal pero de signo contrario, por lo que ambas corrientes se anulan, reflejando en la salida la tensión de entrada amplificada.</h3></p>
+    <h2><strong>SEGUIDOR</strong></h2>
+    <p><img  class="imag3" src="aoS/seguidor.png">
+    <h3>La señal de salida, se aplica a la entrada no inversora en realimentación total, lo que según el criterio anterior, la señal Ve de entrada es similar al de salida, con lo cual no existe amplificación, lo que aparentemente no tiene sentido, sin embargo tiene su aplicación en los conversores de impedancia ya que toma la señal del circuito anterior, presentando una alta impedancia y entrega una impedancia prácticamente nula al circuito de carga. </p>
+
+    <p>En general, este circuito presenta estos parámetros: Ze > 400MW; Zs = < 1W; Ancho de banda ±1MHz.</h3></p>
+    
+ <h2><strong>SUMADOR INVERSOR</strong></h2>
+    <p><img   class="imag4" src="aoSN/Sumador inversor.png">
+    <h3>El sumador inversor, es una aplicación práctica de la característica de tierra virtual en el nudo suma, en la entrada V(-) del amplificador inversor. Este es de los circuitos que probablemente sea el más utilizado, el amplificador sumador. En el sumador inversor, la suma algebraica de las tensiones de cada entrada multiplicado por el factor de ganancia constante, se obtiene en la salida. </p>
+
+    <p>En este circuito, como en el amplificador inversor, la tensión V(+) está conectada a masa, por lo que la tensión V(-) estará a una masa virtual, y como la impedancia de entrada es infinita toda la corriente circulará a través de Ro y la llamaremos Io.</p>
+
+    <p>La ganancia global del circuito la establece la Ro, que, en este sentido, se comporta como en el amplificador inversor básico. La parte más interesante de esta configuración es el hecho de que la mezcla de señales lineales de entrada, no produce interacción entre las entradas, puesto que todas las fuentes de señal alimentan el punto de tierra virtual. El circuito puede admitir cualquier número de entradas.</h3></p>
+    <br>
+    <video class="video" controls>
+    <source src="opamp.mp4" type="video/mp4">
+    </video>
+    <p><h4>
+    Referencia del video: 
+    <a href="https://www.youtube.com/watch?v=mESXqQ-gfcg&ab_channel=ElectronicaSpicus99" target="_blank">¿Que es un amplificador operacional?</a>.
+    </p></h4>
+</main>
+
+</body>
+</html>
